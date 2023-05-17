@@ -1,0 +1,13 @@
+# How to use
+
+## Prerequisites
+- ensure your aws credentials have been losded into your environment
+- ensure you have terraform installed
+- ensure you have manually created a bucket called `theroom-iac` which is where the terraformn state files will be stored 
+- ensure the lambder function handler in your code is called `exports`
+- ensure your code has been bundled as a zip file in the file `../bundle.zip`
+
+## Steps to Run
+- `terraform init`
+- `terraform plan`
+- `terraform apply` and type `yes` to apply the changes

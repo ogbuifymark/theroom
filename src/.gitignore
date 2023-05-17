@@ -48,6 +48,11 @@ web_modules/
 # TypeScript cache
 *.tsbuildinfo
 
+
+# Terraform
+.terraform/
+.terraform.lock.hcl
+
 # Optional npm cache directory
 .npm
 
